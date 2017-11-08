@@ -1,0 +1,64 @@
+body
+{
+    padding-top         : 80px;
+}
+
+.row
+{
+    margin-top          : 10px;
+    text-align          : justify;
+}
+
+p
+{
+    margin-top          : 55px;
+}
+
+img
+{
+    width               : auto;
+    height              : 500px;
+}
+
+#sidebar
+{
+    background          : #ededed;
+    padding-top         : 20px;
+    padding-bottom      : 20px;
+}
+
+#sidebar .bloc
+{
+    margin-bottom       : 40px;
+}
+
+#photos
+{
+    margin-top          : 40px;
+}
+
+#moncompte span.glyphicon
+{
+    color               : #269abc;
+}
+
+#content
+{
+    padding-bottom      : 50px;
+}
+
+#miniatures
+{
+    margin-top          : 20px;
+}
+
+#carousel1
+{
+    margin-top          : 60px;
+}
+
+.img_carousel
+{
+    margin-left         : auto;
+    margin-right        : auto;
+}

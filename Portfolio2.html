@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="./css/main.css"/>
+    <script type="application/javascript" src="./js/jquery-2.1.1.min.js"></script>
+    <script type="application/javascript" src="./js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link href="./favicon2.ico" rel="icon" type="image/x-icon" />
+    <title>Portfolio 2</title>
+</head>
+<body>
+    <!-- menu -->
+    <nav class="navbar navbar-default">	
+        <div class="container">
+            <div class="nav-header">
+                <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu">		+							</button>
+                <a href="#" class="navbar-brand">Portfolio 2</a>
+            </div>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="nav navbar-nav">
+                    <li><a href="./portfolio.html">Portfolio</a></li>
+                    <li><a href="./calculatrice.html">Calculatrice</a></li>
+                    <li><a href="./Pain au chocolat.html">Page wikipedia</a></li>
+                    <li><a href="mailto:tweetysimon@free.fr">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- corps de la page -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-12 col-xs-12"><img class="img-responsive" src="./images/Sylvester.jpg"/></div>
+            <div class="col-lg-4 col-md-12 col-xs-12">
+                <h2>SYLVESTRE</h2>
+                Sylvestre le chat, dit Grosminet (Sylvester, en version originale), est un personnage de dessin animé créé en 1945. C'est l'ennemi du canari Titi. Grosminet est un chat noir et blanc avec un patron « tuxedo ». 
+                Il est aussi doté d'une grosse truffe rouge. À l'image de Vil Coyote, il met en place des stratagèmes pour attraper Titi, mais parfois aussi le kangourou Hippety Hopper, les souris Speedy Gonzales et son cousin Nonchalanté Rodriguez ou les deux ivrognes de service Pedro et Fernando, ou même encore le lapin Bugs Bunny. 
+                Dans ses aventures avec Gonzales, il prend le nom de Grosso Mineto, le chat le plus stupide de tout le Mexique. Il a aussi un sérieux problème d'élocution : il mouille tous les f et tous les s, ce qui crée un effet comique.</div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-xs-12"><h3>Identité et personnalité</h3>Dans sa quête toujours vaine de capturer Titi, il doit souvent faire face à des personnages qui prennent la défense de ce dernier : Mémé, Hector le bouledogue, etc. On le voit parfois avec son fils, à qui il fait souvent honte. Pourtant, il met tout en œuvre pour éblouir son « fiston ». Utilisant divers appareils de chez ACME comme les autres Looney Tunes, ses expériences échouent toujours ; parfois, il en meurt (on le voit avec des ailes d'ange dans le dos).</div>
+            <div class="col-lg-4 col-md-6 col-xs-12"><p>C'est cependant sans ailes dans le dos qu'il meurt et se retrouve condamné aux Enfers dans le cartoon Satan attend, (Satan's Waitin', 1954) où le Diable prend les traits du chien Hector. Son juron favori est « Nom d'un chat » dans le premier doublage joué par Georges Aminel. Dans le nouveau doublage de 1997, c'est devenu « sapristi saucisse », qu'il prononce « faprifti faufiffe ».</p></div>
+            <div class="col-lg-4 col-md-12 col-xs-12">
+
+                <!-- carousel -->
+                <div id="carousel1" class="carousel slide" data-ride="carousel">
+                    <!-- Id's du carousel -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel1" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel1" data-slide-to="1"></li>
+                        <li data-target="#carousel1" data-slide-to="2"></li>
+                    </ol>
+                    
+                    <!-- Wrapper pour les diapos du carousel -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <img class="img_carousel" src="./images/sylvester1.jpg" alt="sylvester1">
+                            <div class="carousel-caption">
+                                
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img class="img_carousel" src="./images/sylvester2.jpg" alt="sylvester2">
+                            <div class="carousel-caption">
+                                
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img class="img_carousel" src="./images/sylvester3.jpg" alt="sylvester3">
+                            <div class="carousel-caption">
+                                
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Controles du carousel -->
+                    <a class="left carousel-control" href="#carousel1" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel1" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- script qui désactive le défilement auto du carousel sur certains navigateurs -->   
+<script>
+    $('.carousel').carousel({
+    interval: false
+    })
+</script>
+</body>
+</html>
